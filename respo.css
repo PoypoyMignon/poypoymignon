@@ -30,7 +30,7 @@
         z-index: -1;
     }
     .navbar__menu.active {
-        background: #060201;
+        background: #000000;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -58,6 +58,7 @@
         padding: 1rem;
         width: 100%;
         display: table;
+        font-size: 12px;
     }
     .navbar__btn {
         padding-bottom: 1rem;
@@ -122,7 +123,7 @@
       z-index: -1;
   }
   .navbar__menu.active {
-      background: #060201;
+      background: #000;
       top: 100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -212,7 +213,7 @@
       z-index: -1;
   }
   .navbar__menu.active {
-      background: #060201;
+      background: #000;
       top: 100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -388,7 +389,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 570px;
+    height: 610px;
     background: #191c1f;
     mix-blend-mode:hard-light;
     opacity: 100;
@@ -802,11 +803,11 @@
   }
 
   .project__overlay{
-    margin-top: 84rem;
+    margin-top: 88rem;
     position: absolute;
     top: 0;
     width: 100%;
-    height: 1255px;
+    height: 1120px;
     background: #141618;
     mix-blend-mode:multiply;
     opacity: 100;
@@ -824,9 +825,9 @@
 
 
   .projects__card:nth-child(1) {
-    margin: 50px 20px 0 20px;
+    margin: 30px 20px 0 20px;
     height: 225px;
-    width: 200px;
+    width: 150px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -837,9 +838,9 @@
     z-index: 999;
 }
 .projects__card:nth-child(2) {
-    margin: 50px 20px 0 20px;
+    margin: 30px 20px 0 20px;
     height: 225px;
-    width: 200px;
+    width: 150px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -850,9 +851,9 @@
     z-index: 999;
 }
 .projects__card:nth-child(3) {
-    margin: 160px 20px 0 20px;
+    margin: 50px 20px 0 20px;
     height: 225px;
-    width: 200px;
+    width: 150px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -863,9 +864,9 @@
     z-index: 999;
 }
 .projects__card:nth-child(4) {
-    margin: 160px 20px 0 20px;
+    margin: 50px 20px 0 20px;
     height: 225px;
-    width: 200px;
+    width: 150px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -878,7 +879,7 @@
 .projects__card:nth-child(1) h2{
     font-size: 12px;
     text-transform: uppercase;
-    margin: 21rem 20px 0 55px;
+    margin: 17rem 20px 0 33px;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -888,7 +889,7 @@
 .projects__card:nth-child(2) h2{
     font-size: 12px;
     text-transform: uppercase;
-    margin: 21rem 20px 0 90px;
+    margin: 17rem 20px 0 65px;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -898,7 +899,7 @@
 .projects__card:nth-child(3) h2{
     font-size: 12px;
     text-transform: uppercase;
-    margin: 21rem 20px 0 69px;
+    margin: 17rem 20px 0 50px;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -908,7 +909,7 @@
 .projects__card:nth-child(4) h2{
     font-size: 12px;
     text-transform: uppercase;
-    margin: 21rem 20px 0 35px;
+    margin: 17rem 20px 0 10px;
     justify-content: center;
     display: flex;
     text-align: center;
