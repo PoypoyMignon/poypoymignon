@@ -191,7 +191,7 @@
 
 .main {
     
-    background-color: #050503;
+    background-color: #000;
     padding: 200px 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
@@ -500,7 +500,7 @@
 /* Contact Section & Footer Section */
 
 .contact {
-    background: #050400;
+    background: #000;
     padding: 200px 0;
 }
 
