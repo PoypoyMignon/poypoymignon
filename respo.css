@@ -672,6 +672,8 @@
 @media screen and (max-width: 768px) {
   .projects__wrapper {
       grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
       width: 100%;
   }
 
@@ -800,6 +802,10 @@
 @media screen and (max-width: 1024px) {
   .projects__wrapper {
       grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      display: grid;
+      margin: 0 0 0 70px;
       width: 100%;
   }
 
